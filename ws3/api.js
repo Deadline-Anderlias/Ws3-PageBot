@@ -1,4 +1,4 @@
-const token = "<Paste your token here!>";
+const token = "EAAGcmGfNEYIBOw9VrA6cWBjP725H8x7P12ZCFTL7k2jU1qUAwihjw4MOXnXOJr1f0BUPXhY4SXb2CqqsYIaAbnhny1TZCcFmzCmEZCoWJMPZBScoW4cVYZBz5dYgifmCunThgLW1ufjaI6L59eI6OikJgVHYQHj5t0zueK9qYLw1Cmrscqpc1NIBTk9ZBZAD7J8LZBGSizjZCVwZDZD";
 const PAGE_ACCESS_TOKEN = process.env.token || token;
 const request = require('request');
 const axios = require("axios");
@@ -61,8 +61,8 @@ module.exports = {
   temp,
   prefix,
   admin: [
-"8439419946124905",
-"9353065101379295"
+"61560838929626",
+""
 ],
   async sendMessage(senderId, message, pageAccessToken) {
     return await new Promise(async (resolve, reject) => {
